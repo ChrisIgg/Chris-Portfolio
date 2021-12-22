@@ -1,27 +1,37 @@
 const skills = [
   {
-    skill: {
-      id: 1,
-      skillName: "HTML/CSS",
-    },
+    skillName: "HTML/CSS",
   },
   {
-    skill: {
-      id: 2,
-      skillName: "Git",
-    },
+    skillName: "Git",
   },
   {
-    skill: {
-      id: 3,
-      skillName: "React",
-    },
+    skillName: "React",
   },
   {
-    skill: {
-      id: 4,
-      skillName: "MERN Stack",
-    },
+    skillName: "MERN Stack",
+  },
+  {
+    skillName: "Performance of Web Applications",
+  },
+  {
+    skillName: "Sequel/NoSQL",
+  },
+  {
+    skillName: "Model-View-Controller",
+  },
+  {
+    skillName: "Express",
+  },
+
+  {
+    skillName: "NodeJS",
+  },
+  {
+    skillName: "Web and Server Side API's",
+  },
+  {
+    skillName: "Javascript",
   },
 ];
 
@@ -29,7 +39,7 @@ function SkillList(props) {
   return (
     <ul className="list-group">
       {skills.map((skill) => (
-        <li className="list-group-item">{`${skill.skill.skillName}`}</li>
+        <li className="list-group-item">{`${skill.skillName}`}</li>
       ))}
     </ul>
   );
