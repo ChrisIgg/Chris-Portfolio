@@ -2,7 +2,7 @@
   "name": "chris-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "",
+  "homepage": "https://chrisigg.github.io/HW-20-Chris-Portfolio",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",

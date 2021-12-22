@@ -1,16 +1,17 @@
-import React from 'react';
+import React from "react";
 
 export default function About() {
   return (
     <div>
       <h1>About Page</h1>
       <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+        I’m a multi-media artist with a background in many audio-visual and
+        technical fields. In searching to learn the many ways the world
+        communicates to each other, I’ve found myself producing/broadcasting
+        local television in the public sector, a contractor for architectural
+        photography, a gigging musician around NYC, an editor/producer of video
+        content in the commercial field, and also developing a burgeoning career
+        in tech and code-based languages.
       </p>
     </div>
   );

@@ -1,20 +1,35 @@
-import React from 'react';
+import React from "react";
 
 export default function Home() {
   return (
     <div>
-      <h1>Home Page</h1>
+      <h1 className="font-weight-bold">
+        Christopher Insignares <br />
+      </h1>
+      <h4>Computer Programmer -- NYC</h4>
+      <br />
+
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
+        <h6 className="font-weight-bold">Base Understandings:</h6>
+        {/* <div className="List">
+          <ListGroup>
+            <ListGroup.item>HTML/CSS</ListGroup.item>
+            <ListGroup.item>Git</ListGroup.item>
+            <ListGroup.item>React</ListGroup.item>
+            <ListGroup.item>MERN Stack</ListGroup.item>
+            <ListGroup.item>Performance of Web Applications</ListGroup.item>
+            <ListGroup.item>Sequel/NoSQL</ListGroup.item>
+            <ListGroup.item>Model-View-Controller</ListGroup.item>
+            <ListGroup.item>Object-Related-Mapping</ListGroup.item>
+            <ListGroup.item>Express</ListGroup.item>
+            <ListGroup.item>OOP</ListGroup.item>
+            <ListGroup.item>NodeJS</ListGroup.item>
+            <ListGroup.item>Web and Server Side API's</ListGroup.item>
+            <ListGroup.item>Javascript</ListGroup.item>
+          </ListGroup>
+        </div> */}
+        HTML/CSS Git Bootcamp in the fall of 2021, all pages in production
+        available here.
       </p>
     </div>
   );
