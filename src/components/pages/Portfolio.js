@@ -11,7 +11,17 @@ export default function Portfolio() {
           }
           alt="gtp1"
         />
-        <a href="https://github.com/ChrisIgg">Github Profile</a>
+        <a href="https://github.com/Jimbo8702/Project-One">Github Project</a>
+      </p>
+      <br />
+      <br />
+
+      <p className="bannerimage">
+        <img
+          src={process.env.PUBLIC_URL + "/images/Project_2/Note_5.png"}
+          alt="note1"
+        />
+        <a href="https://github.com/sagegrayson/PR2-Note">Github Project</a>
       </p>
     </div>
   );

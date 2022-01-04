@@ -1,11 +1,13 @@
 import React from "react";
+import ContactInfo from "../ContactInfo";
 
 export default function Contact() {
   return (
     <div>
       <h1>Contact Page</h1>
+      <ContactInfo />
       <p>
-        <form>
+        {/* <form>
           <label>
             Name:
             <input type="text" name="name" />
@@ -21,7 +23,7 @@ export default function Contact() {
             <input type="text" name="message" />
           </label>
           <input type="submit" value="Submit" />
-        </form>
+        </form> */}
       </p>
     </div>
   );
